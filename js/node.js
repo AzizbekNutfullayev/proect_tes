@@ -1,3 +1,5 @@
+
+
 const links = document.querySelectorAll('.course_link a');
 const cards = document.querySelectorAll('.course_card .card');
 
@@ -25,19 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-document.getElementById('nextPage').addEventListener('click', function() {
-  window.location.href = "./about.html";
-});
 
-document.getElementById('goToLogin').addEventListener('click', function() {
-  window.location.href = "./page/login.html";
-})
 document.getElementById('goTo').addEventListener('click', function() {
   window.location.href = "./page/login.html";
 })
-document.getElementById('nextP').addEventListener('click', function() {
-  window.location.href = "./page/about.html";
-})
+
 document.getElementById('nextPa').addEventListener('click', function() {
   window.location.href = "./page/about.html";
 })
+
