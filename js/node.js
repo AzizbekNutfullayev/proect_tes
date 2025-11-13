@@ -5,7 +5,13 @@ document.getElementById('nextPage').addEventListener('click', function() {
 });
 
 document.getElementById('goToLogin').addEventListener('click', function() {
-  window.location.href = "./login.html";
+  window.location.href = "./page/login.html";
+})
+document.getElementById('goTo').addEventListener('click', function() {
+  window.location.href = "./page/login.html";
+})
+document.getElementById('nextP').addEventListener('click', function() {
+  window.location.href = "./page/login.html";
 })
 
 links.forEach(link => {
