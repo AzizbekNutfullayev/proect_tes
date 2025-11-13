@@ -11,7 +11,10 @@ document.getElementById('goTo').addEventListener('click', function() {
   window.location.href = "./page/login.html";
 })
 document.getElementById('nextP').addEventListener('click', function() {
-  window.location.href = "./page/login.html";
+  window.location.href = "./page/about.html";
+})
+document.getElementById('nextPa').addEventListener('click', function() {
+  window.location.href = "./page/about.html";
 })
 
 links.forEach(link => {
