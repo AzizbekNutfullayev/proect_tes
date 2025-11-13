@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="/page/node.js" defer></script>
+    <link rel="stylesheet" href="/page/stayl.css">
+</head>
+<body>
+    <div class="container_father">
+        <header class="navbar">
+            <div class="header_container">
+                <div class="logo">
+                    <div class="logo_img">
+                        <div class="logo_m">m</div>
+                    </div>
+                    <h2>MyCourse.io</h2>
+                </div>
+
+                <div class="search_box">
+                    <input type="text" placeholder="Search for course">
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="nav_buttons">
+                    <i class="fa fa-shopping-cart"></i>
+                    <button class="login" id="goToLogin">Login</button>
+                    <button class="signup" id="goToLogin">Sign Up</button>
+                </div>
+            </div>
+        </header>
+
+
+        <main>
+            <div class="img_box">
+                <img src="/b071f946b46f4d2481ae6c714d03e07cae26ee9b (1).png" alt="main image">
+                <div class="img_text">
+                    <h1>Learn something new everyday.</h1>
+                    <p>Become professionals and ready to join the world.</p>
+                </div>
+            </div>
+
+            <div class="filter_box">
+                <div class="filter_text">
+                    <h1>
+                        What do you want to learn?
+                    </h1>
+                </div>
+                <div class="input_card">
+                    <input class="inp_1" type="text" placeholder="Find courses, skills, software, etc">
+                    <input class="inp_2" type="text" placeholder="Categories  ">
+                    <input class="inp_3" type="text" placeholder="Topic ">
+                    <button class="filter_button">Search</button>
+                </div>
+            </div>
+
+            <div class="courses_box">
+                <div class="cours_text">
+                    <h1>Browse Our Top Courses</h1>
+                </div>
+
+                <div class="course_link">
+                    <a href="#" class="active" data-type="design">Design</a>
+                    <a href="#" data-type="developer">Developer</a>
+                    <a href="#" data-type="business">Business</a>
+                    <a href="#" data-type="marketing">Marketing</a>
+                    <a href="#" data-type="photography">Photography</a>
+                </div>
+
+                <div class="course_card">
+                    <!-- DESIGN -->
+                    <div class="card" data-type="design">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="design">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="design">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">30% OFF</p>
+                            <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$19.92 <del>$25.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="design">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">15% OFF</p>
+                            <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$29.92 <del>$34.90</del></div>
+                        </div>
+                    </div>
+
+
+                    <!-- DEVELOPER -->
+                    <div class="card" data-type="developer">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="developer">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="developer">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">30% OFF</p>
+                            <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$19.92 <del>$25.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="developer">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">15% OFF</p>
+                            <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$29.92 <del>$34.90</del></div>
+                        </div>
+                    </div>
+
+
+                    <!-- BUSINESS -->
+                    <div class="card" data-type="business">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">15% OFF</p>
+                            <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$29.92 <del>$34.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="business">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="business">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="business">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">30% OFF</p>
+                            <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$19.92 <del>$25.90</del></div>
+                        </div>
+                    </div>
+
+                    <!-- MARKETING -->
+
+                    <div class="card" data-type="marketing">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="marketing">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="marketing">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">15% OFF</p>
+                            <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$29.92 <del>$34.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="marketing">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">30% OFF</p>
+                            <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$19.92 <del>$25.90</del></div>
+                        </div>
+                    </div>
+
+
+                    <!-- PHOTOGRAPHY -->
+                    <div class="card" data-type="photography">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">30% OFF</p>
+                            <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$19.92 <del>$25.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="photography">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="photography">
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">20% OFF</p>
+                            <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author">Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$24.92 <del>$32.90</del></div>
+                        </div>
+                    </div>
+
+                    <div class="card" data-type="photography">
+
+                        <div class="card-header ">
+                            <p class="label">Best Seller</p>
+                            <p class="discount">15% OFF</p>
+                            <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <h3>Adobe Illustrator Scretch Course</h3>
+                            <span class="author"> Kitani Studio</span>
+                            <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+                            <div class="price">$29.92 <del>$34.90</del></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="discount_card">
+                <div class="discount_box">
+                    <div class="discount_text">
+                        <h1>Join Klevr now to get 35% off</h1>
+                        <h3>
+                            With our responsive themes and mobile and desktop apps,
+                            <span><br>
+                                enjoy a seamless experience on any device so will your blog the best visitors
+                            </span>
+                        </h3>
+                        <button id="nextPage" class="discount_button">Join Klevr
+                        </button>
+                    </div>
+                    <div class="discount_img">
+                        <img src="/image copy 2.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="tred_cours_box">
+                <h1>Trending Courses</h1>
+                <div class="tred_cours">
+                    <div class="tred_img">
+                        <img class="tred_img_main" src="/1c45b85bb0f8b59f77fcffdd1137cacbb4a2c3d5.png" alt="">
+                        <div class="tred_text">
+                            <h1>Ana Kursova</h1>
+                            <p>Masterclass in Design Thinking,<br> Innovation & Creativity</p>
+                        </div>
+                    </div>
+
+                    <div class="tred_cards">
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">15% OFF</p>
+                                <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Design Fundamentals</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>Learn how to become a professional Illustrator Now...</p>
+                                <div class="stars">★★★★★☆ <del>(1.2k)</del></div>
+                                <div class="price">$29.92 <del>$34.90</del></div>
+                            </div>
+                        </div>
+
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">30% OFF</p>
+                                <img src="/e14924aa12827a29123663bc5d0c7e37562ecb36.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Ionic - Build iOS, Android & Web...</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>Learn how to create cross-platform apps easily.</p>
+                                <div class="stars">★★★★★☆ <del>(1.2k)</del></div>
+                                <div class="price">$19.92 <del>$25.90</del></div>
+                            </div>
+                        </div>
+
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">20% OFF</p>
+                                <img src="/328e56d5e52d70944073635318e44d132473e832.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Bootcamp Vue.js Web Framework</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>Learn how to make web apps with Vue.js Framework.</p>
+                                <div class="stars">★★★★★☆ <del>(1.2k)</del></div>
+                                <div class="price">$24.92 <del>$32.90</del></div>
+                            </div>
+                        </div>
+
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">20% OFF</p>
+                                <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Advanced React Techniques</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>Improve your React skills and build scalable apps.</p>
+                                <div class="stars">★★★★★☆ <del>(1.2k)</del></div>
+                                <div class="price">$24.92 <del>$32.90</del></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="upcom_box">
+                <h1>
+                    Upcoming Webinar
+                </h1>
+                <div class="upcoming_card">
+                    <div class="tred_cards">
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">15% OFF</p>
+                                <img src="/abf9514ed05dfd544b8a15f8b74e4c60a96534d1.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Adobe Illustrator Scretch Course</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>More than 8yr Experience as Illustrator. Learn how to becoming professional
+                                    Illustrator Now...</p>
+                                <div class="price">$29.92 <del>$34.90</del></div>
+                            </div>
+                        </div>
+
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">30% OFF</p>
+                                <img src="/e76e0ddaaa5c5b28b1d5e5591617e909b3b24ccc.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Bootcamp Vue.js Web Framework.</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>Learn how to make web application with Vue.js Framework.</p>
+                                <div class="price">$19.92 <del>$25.90</del></div>
+                            </div>
+                        </div>
+
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">20% OFF</p>
+                                <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Design Fundamentals</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>More than 8yr Experience as Illustrator. Learn how to becoming professional
+                                    Illustrator Now...</p>
+                                <div class="price">$24.92 <del>$32.90</del></div>
+                            </div>
+                        </div>
+
+                        <div class="tred_card">
+                            <div class="tred_card_header">
+                                <p class="label">Best Seller</p>
+                                <p class="discount">20% OFF</p>
+                                <img src="/32329f7e5ff984311a578929f83ddcf74a23bc31.png" alt="">
+                            </div>
+                            <div class="tred_card_body">
+                                <h3>Ionic - Build iOS, Android & Web...</h3>
+                                <span class="author">Kitani Studio</span>
+                                <p>More than 8yr Experience as Illustrator. Learn how to becoming professional Illustrator Now....</p>
+                                <div class="price">$24.92 <del>$32.90</del></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="get_box">
+                <div class="get_text">
+                    <h1>Get personal learning recommendations based on your needs</h1>
+                    <button id="nextPage">Get Started</button>
+                </div>
+            </div>
+
+
+        </main>
+
+
+        <footer class="footer">
+            <div class="footer_container">
+              <div class="logo_footer">
+                <div class="logo_img_footer">
+                  <div class="logo_m_footer">m</div>
+                </div>
+                <h2>MyCourse.io</h2>
+              </div>
+          
+              <div class="footer_links">
+                <ul>
+                  <li><a href="#">Web Programming</a></li>
+                  <li><a href="#">Mobile Programming</a></li>
+                  <li><a href="#">Java Beginner</a></li>
+                  <li><a href="#">PHP Beginner</a></li>
+                </ul>
+          
+                <ul>
+                  <li><a href="#">Adobe ilistrator</a></li>
+                  <li><a href="#">Adobe Photoshop</a></li>
+                  <li><a href="#">Writing Course</a></li>
+                </ul>
+                <ul>
+                  <li><a href="#">Writing Course</a></li>
+                  <li><a href="#">Photography</a></li>
+                  <li><a href="#">Video Making</a></li>
+                </ul>
+              </div>
+            </div>
+          
+            <div class="footer_bottom">
+              <p>Copyright © MyCourse.io 2024. All Rights Reserved</p>
+              <div class="footer_socials">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+              </div>
+            </div>
+          </footer>
+          
+    </div>
+
+</body>
+
+</html>

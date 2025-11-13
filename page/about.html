@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <script src="/page/abo.js" defer></script>
+  <link rel="stylesheet" href="./abo.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <div class="logo-circle">m</div>
+        <h2>MyCourse.io</h2>
+      </div>
+
+      <div class="browse">
+        <span>Browse</span>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+
+      <div class="search-box">
+        <input type="text" placeholder="UI Design">
+        <i class="fa fa-search"></i>
+      </div>
+
+      <div class="nav-right">
+        <a href="#" class="become">Become Instructor</a>
+        <i class="fa fa-shopping-cart"></i>
+        <i class="fa fa-bell"></i>
+
+        <div class="profile">
+          <img src="/95bca3ecaf6d28d115834f85b6163b6e58e91c7c.png" alt="User">
+          <div class="dropdown">
+            <h4>Jonathan Doe</h4>
+            <p>doe.jonathan@email.com</p>
+            <ul>
+              <li><a href="./profile.html">My Courses</a></li>
+              <li><a href="#">My Cart</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Notifications</a></li>
+              <li><a href="#">Account Settings</a></li>
+              <li><a href="./home.html" class="logout">Logout</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="main_box">
+      <div class="course_box">
+        <div class="sidebar_box">
+          <aside class="sidebar" aria-label="Filtrlar">
+            <div class="title">Filtrlar</div>
+
+            <!-- Accordion item: Rating -->
+            <section class="acc-item" data-acc>
+              <button class="acc-header" aria-expanded="false" type="button">
+                <div class="left">
+                  <div>
+                    <div class="acc-label">Rating</div>
+                    <div class="acc-sub">Ovozlarga qarab saralash</div>
+                  </div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" fill="currentColor" />
+                </svg>
+              </button>
+
+              <div class="acc-content" aria-hidden="true">
+                <div class="content-inner acc-content-inner">
+                  <label class="option radio-row"><input type="radio" name="rating" /><span
+                      class="fake-radio"></span><span style="color: yellow;">★★★★☆</span> 4.5 & up <span
+                      class="muted-count">(5.8K)</span></label>
+                  <label class="option radio-row"><input type="radio" name="rating" /><span class="fake-radio"></span>
+                    <span style="color: yellow;">★★★☆</span>3.5 & up <span class="muted-count">(1.2K)</span></label>
+                  <label class="option radio-row"><input type="radio" name="rating" /><span
+                      class="fake-radio"></span><span style="color: yellow;">★★★☆</span> 3.0 & up <span
+                      class="muted-count">(867)</span></label>
+                </div>
+              </div>
+            </section>
+
+            <!-- Accordion item: Video Duration -->
+            <section class="acc-item" data-acc>
+              <button class="acc-header" aria-expanded="false" type="button">
+                <div class="left">
+                  <div>
+                    <div class="acc-label">Video Duration</div>
+                    <div class="acc-sub">Davomiylik bo‘yicha</div>
+                  </div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" fill="currentColor" />
+                </svg>
+              </button>
+
+              <div class="acc-content" aria-hidden="true">
+                <div class="content-inner acc-content-inner">
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> 0-2 Hours
+                    <span class="muted-count">(9.4K)</span></label>
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> 3-5 Hours
+                    <span class="muted-count">(4.1K)</span></label>
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> 6-12
+                    Hours <span class="muted-count">(3.8K)</span></label>
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> 12+ Hours
+                    <span class="muted-count">(1K)</span></label>
+                </div>
+              </div>
+            </section>
+
+            <section class="acc-item" data-acc>
+              <button class="acc-header" aria-expanded="false" type="button">
+                <div class="left">
+                  <div>
+                    <div class="acc-label">Categories</div>
+                    <div class="acc-sub">Soha bo‘yicha</div>
+                  </div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" fill="currentColor" />
+                </svg>
+              </button>
+
+              <div class="acc-content" aria-hidden="true">
+                <div class="content-inner acc-content-inner">
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> Design
+                    <span class="muted-count">(3.2K)</span></label>
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span>
+                    Programming <span class="muted-count">(1.4K)</span></label>
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> Business
+                    & Marketing <span class="muted-count">(809)</span></label>
+                  <label class="option checkbox-row"><input type="checkbox" /><span class="fake-check"></span> Finance
+                    <span class="muted-count">(548)</span></label>
+                </div>
+              </div>
+            </section>
+
+            <section class="acc-item" data-acc>
+              <button class="acc-header" aria-expanded="false" type="button">
+                <div class="left">
+                  <div>
+                    <div class="acc-label">Level</div>
+                    <div class="acc-sub">Sizga mos daraja</div>
+                  </div>
+                </div>
+                <svg class="chev" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z" fill="currentColor" />
+                </svg>
+              </button>
+
+              <div class="acc-content" aria-hidden="true">
+                <div class="content-inner acc-content-inner">
+                  <label class="option radio-row"><input type="radio" name="level" /><span class="fake-radio"></span>
+                    All Levels</label>
+                  <label class="option radio-row"><input type="radio" name="level" /><span class="fake-radio"></span>
+                    Beginner</label>
+                  <label class="option radio-row"><input type="radio" name="level" /><span class="fake-radio"></span>
+                    Intermediate</label>
+                  <label class="option radio-row"><input type="radio" name="level" /><span class="fake-radio"></span>
+                    Advanced</label>
+                </div>
+              </div>
+            </section>
+          </aside>
+        </div>
+
+        <div class="card_degn">
+          <!-- DESIGN -->
+          <div class="card" data-type="design">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">20% OFF</p>
+              <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$24.92 <del>$32.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="design">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">20% OFF</p>
+              <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$24.92 <del>$32.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="design">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">30% OFF</p>
+              <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$19.92 <del>$25.90</del></div>
+            </div>
+          </div>
+
+
+          <div class="card" data-type="design">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">15% OFF</p>
+              <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$29.92 <del>$34.90</del></div>
+            </div>
+          </div>
+
+
+          <!-- DEVELOPER -->
+          <div class="card" data-type="developer">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">20% OFF</p>
+              <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$24.92 <del>$32.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="developer">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">20% OFF</p>
+              <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$24.92 <del>$32.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="developer">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">30% OFF</p>
+              <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$19.92 <del>$25.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="developer">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">15% OFF</p>
+              <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$29.92 <del>$34.90</del></div>
+            </div>
+          </div>
+
+
+          <!-- BUSINESS -->
+          <div class="card" data-type="business">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">15% OFF</p>
+              <img src="/8bb6ad24279a44450b38c3fb0c8168706af3c700.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$29.92 <del>$34.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="business">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">20% OFF</p>
+              <img src="/13d656b853149532a6de40da48658b3f88d91f73.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$24.92 <del>$32.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="business">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">20% OFF</p>
+              <img src="/1bc2886aed9056a0b937d9b6dac2d6d756fff2d2.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$24.92 <del>$32.90</del></div>
+            </div>
+          </div>
+
+          <div class="card" data-type="business">
+            <div class="card-header ">
+              <p class="label">Best Seller</p>
+              <p class="discount">30% OFF</p>
+              <img src="/4052b68a1e7b2e53ff988154a520929af731ce8a.png" alt="">
+            </div>
+            <div class="card-body">
+              <h3>Adobe Illustrator Scretch Course</h3>
+              <span class="author">Kitani Studio</span>
+              <div colas='star' style="color: yellow;">★★★★★☆<del style="color: gray;">(1.2k}</del></div>
+              <div class="price">$19.92 <del>$25.90</del></div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+       <div class="pagination-container">
+        <button class="prev-page" disabled>&lt;</button>
+        <div class="page-numbers" id="pagination"></div>
+        <button class="next-page">&gt;</button>
+      </div>
+    </div>
+
+    <div class="discount_card">
+      <div class="discount_box">
+        <div class="discount_text">
+          <h1>Join Klevr now to get 35% off</h1>
+          <h3>
+            With our responsive themes and mobile and desktop apps,
+            <span><br>
+              enjoy a seamless experience on any device so will your blog the best visitors
+            </span>
+          </h3>
+          <button id="nextPage" class="discount_button">Join Klevr
+          </button>
+        </div>
+        <div class="discount_img">
+          <img src="/image copy 2.png" alt="">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer_container">
+      <div class="logo_footer">
+        <div class="logo_img_footer">
+          <div class="logo_m_footer">m</div>
+        </div>
+        <h2>MyCourse.io</h2>
+      </div>
+
+      <div class="footer_links">
+        <ul>
+          <li><a href="#">Web Programming</a></li>
+          <li><a href="#">Mobile Programming</a></li>
+          <li><a href="#">Java Beginner</a></li>
+          <li><a href="#">PHP Beginner</a></li>
+        </ul>
+
+        <ul>
+          <li><a href="#">Adobe ilistrator</a></li>
+          <li><a href="#">Adobe Photoshop</a></li>
+          <li><a href="#">Writing Course</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Writing Course</a></li>
+          <li><a href="#">Photography</a></li>
+          <li><a href="#">Video Making</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer_bottom">
+      <p>Copyright © MyCourse.io 2024. All Rights Reserved</p>
+      <div class="footer_socials">
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
