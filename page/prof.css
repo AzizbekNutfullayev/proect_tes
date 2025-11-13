@@ -1,244 +1,292 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
-  
-  .navbar {
-    width: 100%;
-    background: #fff;
-    padding: 10px 40px;
-    display: flex;
-    justify-content: center;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
-  }
-  
+/* ===== Navbar Style ===== */
+.navbar {
+  width: 100%;
+  background: #fff;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+.logo-circle {
+  background: #27c2a0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+
+/* Browse */
+.browse {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #333;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Search */
+.search-box {
+  position: relative;
+  width: 350px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 8px 35px 8px 12px;
+  background: #f5f5f5;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-box i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  cursor: pointer;
+}
+
+/* Nav Right */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.become {
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.nav-right i {
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Profile & Dropdown */
+.profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.profile img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 45px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  width: 220px;
+  display: none;
+  padding: 12px;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+.dropdown.active {
+  display: block;
+}
+
+.dropdown h4 {
+  font-size: 14px;
+  color: #333;
+}
+
+.dropdown p {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.dropdown ul {
+  list-style: none;
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+}
+
+.dropdown li {
+  padding: 6px 0;
+}
+
+.dropdown li a {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.dropdown li a:hover {
+  color: #27c2a0;
+  padding-left: 5px;
+}
+
+.dropdown a.logout {
+  color: red;
+  font-weight: 500;
+}
+
+/* ==============================
+   RESPONSIVE MEDIA QUERIES
+============================== */
+
+/* 992px */
+@media (max-width: 992px) {
   .nav-container {
-    width: 100%;
-    max-width: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    gap: 10px;
   }
-  
-  /* LOGO */
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  
-  .logo-circle {
-    background: #27c2a0;
-    color: #fff;
-    font-weight: bold;
-    font-size: 30px;
-    width: 35px;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    padding-top: 20px;
-  }
-  
-  .browse {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: #333;
-    cursor: pointer;
-    font-size: 14px;
-  }
-  
+
   .search-box {
-    position: relative;
-    width: 350px;
-  }
-  
-  .search-box input {
     width: 100%;
-    padding: 8px 35px 8px 12px;
-    background: #f5f5f5;
-    border: none;
-    border-radius: 6px;
-    outline: none;
+    order: 3;
   }
-  
-  .search-box i {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #555;
-    cursor: pointer;
+
+  .browse {
+    order: 2;
   }
-  
+
   .nav-right {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    order: 4;
   }
-  
-  .become {
-    color: #333;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .nav-right i {
-    font-size: 18px;
-    color: #333;
-    cursor: pointer;
-  }
-  
-  .profile {
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .profile img {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-  }
-  
+
   .dropdown {
-    position: absolute;
-    right: 0;
-    top: 45px;
-    background: #fff;
-    border-radius: 6px;
-    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
-    width: 220px;
+    width: 200px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .become {
     display: none;
-    padding: 12px;
-    z-index: 10;
   }
-  
-  .dropdown.active {
-    display: block;
+
+  .search-box {
+    width: 90%;
   }
-  
-  .dropdown h4 {
-    font-size: 14px;
-    color: #333;
+
+  .browse {
+    font-size: 13px;
   }
-  
-  .dropdown p {
-    font-size: 12px;
-    color: #666;
-    margin-bottom: 10px;
+
+  .logo h2 {
+    font-size: 16px;
   }
-  
-  .dropdown ul {
-    list-style: none;
-    border-top: 1px solid #eee;
-    padding-top: 10px;
+
+  /* ✅ Dropdown chapga o‘tadi */
+  .dropdown {
+    left: 0;
+    right: auto;
   }
-  
-  .dropdown li {
-    padding: 6px 0;
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .logo h2 {
+    display: none;
   }
-  
-  .dropdown li a {
-    display: block;
-    color: #333;
-    font-size: 14px;
-    text-decoration: none;
-    transition: 0.2s;
+
+  .search-box {
+    width: 100%;
   }
-  
-  .dropdown li a:hover {
-    color: #27c2a0;
-    padding-left: 5px;
+
+  .nav-right {
+    gap: 10px;
   }
-  
-  .dropdown a.logout {
-    color: red;
-    font-weight: 500;
+
+  .dropdown {
+    left: 0;
+    right: auto;
   }
-  
-  /* ===================
-      RESPONSIVE DESIGN
-  =================== */
-  
-  /* --- 750px --- */
-  @media (max-width: 750px) {
-    .nav-container {
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .search-box {
-      width: 100%;
-      order: 3;
-    }
-    .browse {
-      order: 2;
-    }
-    .nav-right {
-      order: 4;
-    }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .navbar {
+    padding: 8px 15px;
   }
-  
-  /* --- 550px --- */
-  @media (max-width: 550px) {
-    .become {
-      display: none;
-    }
-    .search-box {
-      width: 90%;
-    }
-    .browse {
-      font-size: 13px;
-    }
-    .logo h2 {
-      font-size: 16px;
-    }
+
+  .search-box input {
+    padding: 6px 30px 6px 10px;
   }
-  
-  /* --- 480px --- */
-  @media (max-width: 480px) {
-    .logo h2 {
-      display: none;
-    }
-    .search-box {
-      width: 100%;
-    }
-    .nav-right {
-      gap: 10px;
-    }
+
+  .dropdown {
+    left: 0;
+    right: auto;
+    width: 180px;
   }
-  
-  /* --- 400px --- */
-  @media (max-width: 400px) {
-    .navbar {
-      padding: 8px 15px;
-    }
-    .search-box input {
-      padding: 6px 30px 6px 10px;
-    }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .browse {
+    display: none;
   }
-  
-  /* --- 350px --- */
-  @media (max-width: 350px) {
-    .browse {
-      display: none;
-    }
-    .search-box {
-      width: 100%;
-    }
-    .logo-circle {
-      width: 30px;
-      height: 30px;
-      font-size: 16px;
-    }
+
+  .search-box {
+    width: 100%;
   }
-  
+
+  .logo-circle {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .dropdown {
+    left: 0;
+    right: auto;
+    width: 170px;
+  }
+}
+
   /* ccount-container */
 
   /* Asosiy konteyner */

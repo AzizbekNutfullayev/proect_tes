@@ -106,6 +106,149 @@
   color: #27c2a0;
 }
 
+/* 992px */
+@media (max-width: 992px) {
+  .header_container {
+    padding: 12px 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search_box {
+    width: 100%;
+    order: 2;
+    margin-top: 10px;
+  }
+
+  .nav_buttons {
+    order: 3;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .header_container {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search_box {
+    width: 100%;
+    order: 2;
+  }
+
+  .nav_buttons {
+    width: 100%;
+    justify-content: space-between;
+    order: 3;
+    margin-top: 10px;
+  }
+
+  .logo h2 {
+    font-size: 18px;
+  }
+
+  .logo_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo_m {
+    font-size: 40px;
+    margin-top: 25px;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .search_box input {
+    font-size: 13px;
+    padding: 8px 35px 8px 10px;
+  }
+
+  .nav_buttons button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .logo h2 {
+    font-size: 16px;
+  }
+
+  .logo_img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logo_m {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .search_box input {
+    padding: 6px 30px 6px 8px;
+  }
+
+  .nav_buttons button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .logo h2 {
+    font-size: 15px;
+  }
+
+  .logo_img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .logo_m {
+    font-size: 30px;
+    margin-top: 18px;
+  }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .search_box {
+    width: 100%;
+  }
+
+  .nav_buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+  }
+
+  .login, .signup {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo h2 {
+    display: none;
+  }
+
+  .logo_img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo_m {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+}
+
+
 /*img boxx*/
 
 .img_box {
@@ -142,6 +285,151 @@
   margin-top: 10px;
   color: #d5d1d1;
 }
+
+/* 992px */
+@media (max-width: 992px) {
+  .header_container {
+    padding: 12px 30px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .search_box {
+    width: 100%;
+    order: 2;
+    margin-top: 10px;
+  }
+
+  .nav_buttons {
+    order: 3;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .header_container {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .search_box {
+    width: 100%;
+    order: 2;
+  }
+
+  .nav_buttons {
+    width: 100%;
+    justify-content: space-between;
+    order: 3;
+    margin-top: 10px;
+  }
+
+  .logo h2 {
+    font-size: 18px;
+  }
+
+  .logo_img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .logo_m {
+    font-size: 40px;
+    margin-top: 25px;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .search_box input {
+    font-size: 13px;
+    padding: 8px 35px 8px 10px;
+  }
+
+  .nav_buttons button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .logo h2 {
+    font-size: 16px;
+  }
+
+  .logo_img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .logo_m {
+    font-size: 35px;
+    margin-top: 20px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .search_box input {
+    padding: 6px 30px 6px 8px;
+  }
+
+  .nav_buttons button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .logo h2 {
+    font-size: 15px;
+  }
+
+  .logo_img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .logo_m {
+    font-size: 30px;
+    margin-top: 18px;
+  }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .search_box {
+    width: 100%;
+  }
+
+  .nav_buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 5px;
+  }
+
+  .login, .signup {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo h2 {
+    display: none;
+  }
+
+  .logo_img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo_m {
+    font-size: 28px;
+    margin-top: 15px;
+  }
+}
+
+
+
 
 /* filter box */
 
@@ -235,6 +523,128 @@
   color: black;
   transform: unset;
 }
+
+/* 992px */
+@media (max-width: 992px) {
+  .filter_box {
+    width: 90%;
+    left: 5%;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .input_card {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .input_card .inp_1,
+  .input_card .inp_2,
+  .input_card .inp_3,
+  .filter_button {
+    margin: 10px;
+  }
+
+  .input_card .inp_1 {
+    width: 300px;
+    padding: 15px;
+  }
+
+  .input_card .inp_2 {
+    width: 220px;
+    padding: 15px;
+  }
+
+  .input_card .inp_3 {
+    width: 120px;
+    padding: 15px;
+  }
+
+  .filter_button {
+    width: 180px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .filter_box {
+    width: 95%;
+    left: 2.5%;
+    padding: 15px 0;
+  }
+
+  .input_card .inp_1 {
+    width: 90%;
+  }
+
+  .input_card .inp_2,
+  .input_card .inp_3,
+  .filter_button {
+    width: 90%;
+    padding: 12px;
+  }
+
+  .filter_text h1 {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .filter_text h1 {
+    font-size: 16px;
+  }
+
+  .input_card .inp_1,
+  .input_card .inp_2,
+  .input_card .inp_3,
+  .filter_button {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 14px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .filter_text h1 {
+    font-size: 14px;
+  }
+
+  .filter_box {
+    padding: 10px 0;
+  }
+
+  .input_card .inp_1,
+  .input_card .inp_2,
+  .input_card .inp_3,
+  .filter_button {
+    font-size: 13px;
+    padding: 8px;
+  }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .filter_text h1 {
+    font-size: 13px;
+  }
+
+  .input_card .inp_1,
+  .input_card .inp_2,
+  .input_card .inp_3,
+  .filter_button {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+
+
+
 /* card course */
 
 .courses_box {
@@ -401,6 +811,160 @@
   margin-left: 5px;
 }
 
+/* 992px */
+@media (max-width: 992px) {
+  .courses_box {
+    padding: 50px 30px;
+  }
+
+  .cours_text h1 {
+    font-size: 24px;
+  }
+
+  .course_link a {
+    font-size: 16px;
+  }
+
+  .course_card {
+    gap: 15px;
+  }
+
+  .card {
+    width: 280px;
+  }
+
+  .card-header img {
+    width: 100%;
+    height: 160px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .courses_box {
+    padding: 40px 20px;
+  }
+
+  .cours_text h1 {
+    font-size: 22px;
+  }
+
+  .course_link {
+    gap: 15px;
+  }
+
+  .course_link a {
+    font-size: 15px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .card-header img {
+    height: 150px;
+  }
+
+  .card-body h3 {
+    font-size: 16px;
+  }
+
+  .card-body p {
+    font-size: 13px;
+  }
+
+  .price {
+    font-size: 14px;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .cours_text h1 {
+    font-size: 20px;
+  }
+
+  .course_link a {
+    font-size: 14px;
+  }
+
+  .card-header img {
+    height: 140px;
+  }
+
+  .card-body h3 {
+    font-size: 15px;
+  }
+
+  .card-body p,
+  .author {
+    font-size: 12px;
+  }
+
+  .price {
+    font-size: 13px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .cours_text h1 {
+    font-size: 18px;
+  }
+
+  .course_link a {
+    font-size: 13px;
+  }
+
+  .card-header img {
+    height: 130px;
+  }
+
+  .card-body h3 {
+    font-size: 14px;
+  }
+
+  .card-body p,
+  .author {
+    font-size: 11px;
+  }
+
+  .price {
+    font-size: 12px;
+  }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .cours_text h1 {
+    font-size: 16px;
+  }
+
+  .course_link a {
+    font-size: 12px;
+    gap: 10px;
+  }
+
+  .card-header img {
+    height: 120px;
+  }
+
+  .card-body h3 {
+    font-size: 13px;
+  }
+
+  .card-body p,
+  .author {
+    font-size: 10px;
+  }
+
+  .price {
+    font-size: 11px;
+  }
+}
+
+
+
 /* discount  */
 
 .discount_box {
@@ -458,6 +1022,120 @@
   font-weight: bold;
 }
 
+/* 992px */
+@media (max-width: 992px) {
+  .discount_box {
+    width: 95%;
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .discount_text {
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .discount_text h1 {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  .discount_text h3 {
+    font-size: 18px;
+  }
+
+  .discount_button {
+    margin: 20px auto;
+  }
+
+  .discount_img img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin: 0 auto;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .discount_text h1 {
+    font-size: 24px;
+  }
+
+  .discount_text h3 {
+    font-size: 16px;
+  }
+
+  .discount_button {
+    width: 180px;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .discount_img img {
+    width: 90%;
+    height: auto;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .discount_text h1 {
+    font-size: 22px;
+  }
+
+  .discount_text h3 {
+    font-size: 14px;
+  }
+
+  .discount_button {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+  }
+
+  .discount_img img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .discount_text h1 {
+    font-size: 20px;
+  }
+
+  .discount_text h3 {
+    font-size: 13px;
+  }
+
+  .discount_button {
+    width: 150px;
+    height: 38px;
+    font-size: 13px;
+  }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .discount_text h1 {
+    font-size: 18px;
+  }
+
+  .discount_text h3 {
+    font-size: 12px;
+  }
+
+  .discount_button {
+    width: 140px;
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+
 /* trad courses */
 /* Container */
 .tred_cours_box {
@@ -495,9 +1173,6 @@
   filter: brightness(70%);
 }
 
-
-
-
 .tred_text h1 {
   top: 2%;
   left: 1%;
@@ -517,7 +1192,6 @@
   color: white;
 }
 
-/* Right side cards */
 .tred_cards {
   flex: 1;
   display: flex;
@@ -715,411 +1389,99 @@
   background:transparent;
   font-weight: bold;
 }
+/* 992px */
+@media (max-width: 992px) {
+  .get_box {
+    padding: 0 30px;
+    height: auto;
+  }
+
+  .get_text {
+    padding: 30px;
+  }
+
+  .get_text h1 {
+    font-size: 28px;
+  }
+
+  .get_text button {
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    margin-top: 30px;
+  }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .get_text h1 {
+    font-size: 24px;
+  }
+
+  .get_text button {
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .get_text {
+    padding: 20px;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .get_text h1 {
+    font-size: 22px;
+  }
+
+  .get_text button {
+    width: 130px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+/* 400px */
+@media (max-width: 400px) {
+  .get_text h1 {
+    font-size: 20px;
+  }
+
+  .get_text button {
+    width: 120px;
+    height: 38px;
+    font-size: 14px;
+  }
+}
+
+/* 350px */
+@media (max-width: 350px) {
+  .get_text h1 {
+    font-size: 18px;
+  }
+
+  .get_text button {
+    width: 110px;
+    height: 35px;
+    font-size: 13px;
+  }
+}
+
+
+
 
 /* footer */
 
 .footer {
-  background-color: #111;
   color: #fff;
   padding: 40px 80px;
 }
 
 .footer_container {
-  background-color: #333;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px solid #333;
-  padding-bottom: 20px;
-}
-
-/* LOGO QISMI */
-.logo_footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo_img_footer {
-  width: 50px;
-  height: 50px;
-  background-color: #27c2a0;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-}
-.logo_m_footer{
-  content: "";
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  border-width: 10px; 
-  border-style: solid;
-  margin-top: 30px;
-  border-color: #27c2a0 transparent transparent transparent; }
-
-.logo_footer h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.logo_m_footer {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* LINKLAR QISMI */
-.footer_links {
-  display: flex;
-  gap: 200px; 
-}
-
-.footer_links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 80px;
-}
-
-.footer_container {
-  background-color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #333;
-  padding-bottom: 20px;
-}
-
-/* LOGO QISMI */
-.logo_footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo_img_footer {
-  width: 50px;
-  height: 50px;
-  background-color: #27c2a0;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-}
-.logo_m_footer{
-  content: "";
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  border-width: 10px; 
-  border-style: solid;
-  margin-top: 30px;
-  border-color: #27c2a0 transparent transparent transparent; }
-
-.logo_footer h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.logo_m_footer {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* LINKLAR QISMI */
-.footer_links {
-  display: flex;
-  gap: 200px; 
-}
-
-.footer_links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 80px;
-}
-
-.footer_container {
-  background-color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #333;
-  padding-bottom: 20px;
-}
-
-/* LOGO QISMI */
-.logo_footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo_img_footer {
-  width: 50px;
-  height: 50px;
-  background-color: #27c2a0;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-}
-.logo_m_footer{
-  content: "";
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  border-width: 10px; 
-  border-style: solid;
-  margin-top: 30px;
-  border-color: #27c2a0 transparent transparent transparent; }
-
-.logo_footer h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.logo_m_footer {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* LINKLAR QISMI */
-.footer_links {
-  display: flex;
-  gap: 200px; 
-}
-
-.footer_links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 80px;
-}
-
-.footer_container {
-  background-color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #333;
-  padding-bottom: 20px;
-}
-
-/* LOGO QISMI */
-.logo_footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo_img_footer {
-  width: 50px;
-  height: 50px;
-  background-color: #27c2a0;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-}
-.logo_m_footer{
-  content: "";
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  border-width: 10px; 
-  border-style: solid;
-  margin-top: 30px;
-  border-color: #27c2a0 transparent transparent transparent; }
-
-.logo_footer h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.logo_m_footer {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* LINKLAR QISMI */
-.footer_links {
-  display: flex;
-  gap: 200px; 
-}
-
-.footer_links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 80px;
-}
-
-.footer_container {
-  background-color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #333;
-  padding-bottom: 20px;
-}
-
-/* LOGO QISMI */
-.logo_footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo_img_footer {
-  width: 50px;
-  height: 50px;
-  background-color: #27c2a0;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-}
-.logo_m_footer{
-  content: "";
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  border-width: 10px; 
-  border-style: solid;
-  margin-top: 30px;
-  border-color: #27c2a0 transparent transparent transparent; }
-
-.logo_footer h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.logo_m_footer {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* LINKLAR QISMI */
-.footer_links {
-  display: flex;
-  gap: 200px; 
-}
-
-.footer_links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 80px;
-}
-
-.footer_container {
-  background-color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #333;
-  padding-bottom: 20px;
-}
-
-/* LOGO QISMI */
-.logo_footer {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo_img_footer {
-  width: 50px;
-  height: 50px;
-  background-color: #27c2a0;
-  border-radius: 50%;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 25px;
-}
-.logo_m_footer{
-  content: "";
-  font-size: 24px;
-  font-weight: bold;
-  position: absolute;
-  border-width: 10px; 
-  border-style: solid;
-  margin-top: 30px;
-  border-color: #27c2a0 transparent transparent transparent; }
-
-.logo_footer h2 {
-  font-size: 22px;
-  font-weight: bold;
-}
-
-.logo_m_footer {
-  font-weight: bold;
-  font-size: 30px;
-}
-
-/* LINKLAR QISMI */
-.footer_links {
-  display: flex;
-  gap: 200px; 
-}
-
-.footer_links ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 80px;
-}
-
-.footer_container {
-  background-color: #333;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  border-bottom: 1px solid #333;
   padding-bottom: 20px;
 }
 
@@ -1183,9 +1545,346 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px solid #333;
   padding-bottom: 20px;
 }
+
+/* LOGO QISMI */
+.logo_footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_img_footer {
+  width: 50px;
+  height: 50px;
+  background-color: #27c2a0;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.logo_m_footer{
+  content: "";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  border-width: 10px; 
+  border-style: solid;
+  margin-top: 30px;
+  border-color: #27c2a0 transparent transparent transparent; }
+
+.logo_footer h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo_m_footer {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* LINKLAR QISMI */
+.footer_links {
+  display: flex;
+  gap: 200px; 
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 80px;
+}
+
+/* LOGO QISMI */
+.logo_footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_img_footer {
+  width: 50px;
+  height: 50px;
+  background-color: #27c2a0;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.logo_m_footer{
+  content: "";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  border-width: 10px; 
+  border-style: solid;
+  margin-top: 30px;
+  border-color: #27c2a0 transparent transparent transparent; }
+
+.logo_footer h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo_m_footer {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* LINKLAR QISMI */
+.footer_links {
+  display: flex;
+  gap: 200px; 
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 80px;
+}
+
+
+/* LOGO QISMI */
+.logo_footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_img_footer {
+  width: 50px;
+  height: 50px;
+  background-color: #27c2a0;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.logo_m_footer{
+  content: "";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  border-width: 10px; 
+  border-style: solid;
+  margin-top: 30px;
+  border-color: #27c2a0 transparent transparent transparent; }
+
+.logo_footer h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo_m_footer {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* LINKLAR QISMI */
+.footer_links {
+  display: flex;
+  gap: 200px; 
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  color: #fff;
+  padding: 40px 80px;
+}
+
+
+/* LOGO QISMI */
+.logo_footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_img_footer {
+  width: 50px;
+  height: 50px;
+  background-color: #27c2a0;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.logo_m_footer{
+  content: "";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  border-width: 10px; 
+  border-style: solid;
+  margin-top: 30px;
+  border-color: #27c2a0 transparent transparent transparent; }
+
+.logo_footer h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo_m_footer {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* LINKLAR QISMI */
+.footer_links {
+  display: flex;
+  gap: 200px; 
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  color: #fff;
+  padding: 40px 80px;
+}
+
+
+.logo_footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_img_footer {
+  width: 50px;
+  height: 50px;
+  background-color: #27c2a0;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.logo_m_footer{
+  content: "";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  border-width: 10px; 
+  border-style: solid;
+  margin-top: 30px;
+  border-color: #27c2a0 transparent transparent transparent; }
+
+.logo_footer h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo_m_footer {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer_links {
+  display: flex;
+  gap: 200px; 
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 80px;
+}
+
+
+/* LOGO QISMI */
+.logo_footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_img_footer {
+  width: 50px;
+  height: 50px;
+  background-color: #27c2a0;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.logo_m_footer{
+  content: "";
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  border-width: 10px; 
+  border-style: solid;
+  margin-top: 30px;
+  border-color: #27c2a0 transparent transparent transparent; }
+
+.logo_footer h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo_m_footer {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* LINKLAR QISMI */
+.footer_links {
+  display: flex;
+  gap: 200px; 
+}
+
+.footer_links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 80px;
+}
+
+
 
 /* LOGO QISMI */
 .logo_footer {
