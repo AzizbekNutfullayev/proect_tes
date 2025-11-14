@@ -172,6 +172,36 @@
         </div>
 
         <div class="card_degn">
+          <div class="card_text">
+            <div class="text">
+              <h1>Showing 2,312 results of <span>UI Design</span></h1>
+            </div>
+            <div class="options">
+              <select id="mevalar" class="mevalar">
+                <option value="all">Most Popular</option>
+                <option value="design">Design</option>
+                <option value="developer">Developer</option>
+                <option value="business">Business</option>
+              </select>
+              <script>
+                const filterSelect = document.getElementById('mevalar');
+                const allCards = Array.from(document.querySelectorAll('.card_degn .card'));
+
+                filterSelect.addEventListener('change', (e) => {
+                  const selected = e.target.value;
+
+                  allCards.forEach(card => {
+                    if (selected === 'all' || card.dataset.type === selected) {
+                      card.style.display = 'block';
+                    } else {
+                      card.style.display = 'none';
+                    }
+                  });
+                });
+
+              </script>
+            </div>
+          </div>
           <!-- DESIGN -->
           <div class="card" data-type="design">
             <div class="card-header ">
@@ -349,7 +379,7 @@
 
         </div>
       </div>
-       <div class="pagination-container">
+      <div class="pagination-container">
         <button class="prev-page" disabled>&lt;</button>
         <div class="page-numbers" id="pagination"></div>
         <button class="next-page">&gt;</button>
